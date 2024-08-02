@@ -38,24 +38,6 @@ body {
     display: flex;
     align-items: center;
 }
-.lista-menu {
-    display: none;
-}
-.container__botao:checked ~ .lista-menu {
-    display: block;
-}
-.cabeçalho {
-    background-color: var(--branco);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-.lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-}
 .lista-menu__titulo,
 .lista-menu__item {
     padding: 1em;
@@ -82,12 +64,6 @@ body {
     background-clip: text;
     text-transform: uppercase;
 }
-.lista-menu {
-    display: none;
-    position: absolute;
-    top: 100%;
-    width: 60vw;
-}
 :root {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
@@ -101,7 +77,6 @@ body {
     font-size: 16px;
     font-weight: 400;
 }
-.lista-menu__titulo {
-    color: var(--laranja);
-    font-weight: 700;
+.container__botao {
+    display: none;
 }
