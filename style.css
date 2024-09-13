@@ -1,7 +1,7 @@
 @import url("header.css");
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carrossel.css");
+@import url("header.css");
+@import url("banner.css");
+@import url("carrossel.css");
 :root {
     --cor-de-fundo: #EBECEE;
 }
@@ -21,7 +21,7 @@ body {
 .cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
-    background-image: url(“../img/Menu.svg”);
+    background-image: url("Menu.svg");
     display: inline-block;
 }
 :root {
